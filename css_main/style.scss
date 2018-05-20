@@ -391,6 +391,7 @@ section {
 .portfolio {
   text-align: center;
   background-color: #f3f3f3;
+  padding-bottom: 100px;
 
   h3 {
     margin-bottom: 40px;
@@ -399,18 +400,73 @@ section {
   p {
     margin-bottom: 60px;
   }
-}
 
-.menu__list {
-  justify-content: center;
+  .decor-menu {
+    padding-bottom: 60px;
 
-  a:hover {
-    text-decoration: none;
-    color: #19bd9a;
+    .menu__list {
+      justify-content: center;
+
+      a:hover {
+        text-decoration: none;
+        color: #19bd9a;
+      }
+    }
+
+    .menu--prospero .menu__link::before {
+      height: 2px;
+      background: #19bd9a;
+    }
+  }
+
+  .portfolio_foot {
+    margin-top: 40px;
+    background-image: url("../images_main/portfolio_foot.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 58px;
+    padding-bottom: 57px;
+
+    p {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 27px;
+      }
+
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      color: #fff;
+      padding: 8px 25px;
+      border: 1px solid #fff;
+      border-radius: 25px;
+    }
   }
 }
 
-.menu--prospero .menu__link::before {
-  height: 2px;
-  background: #19bd9a;
+.testimonials {
+  text-align: center;
+  background-color: #f3f3f3;
+
+  h3 {
+    margin-bottom: 40px;
   }
+
+  p {
+    margin-bottom: 60px;
+  }
+
+  .contcarousel {
+    border: 1px solid #000;
+    margin-top: 63px;
+
+      .carousel {
+        img {
+          width: 100%;
+        }
+      }
+    }
+}
