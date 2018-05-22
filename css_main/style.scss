@@ -543,3 +543,47 @@ header {
     left: 550px;
   }
 }
+
+//media queries
+
+@include max-screen($point-1) {
+  .navbar-default .navbar-right{
+      margin-right: 200px;
+  }
+
+  .section-services .elecrty {
+    font-size: 25px;
+  }
+
+  .section-services .game {
+    font-size: 20px;
+  }
+}
+
+@include max-screen($point-2) {
+  .section-bouncy {
+    .pad {
+      text-align: center;
+    }
+  }
+  .section-services .elecrty {
+    font-size: 25px;
+  }
+
+  .section-services .game {
+    font-size: 20px;
+  }
+
+  .monitor {
+    margin: auto;
+  }
+
+  .section-impressed .p-name {
+    margin-bottom: 140px;
+  }
+
+  .section-testimonials .owl-dots {
+    top: 200px;
+    left: 325px;
+  }
+}
