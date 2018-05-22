@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--<meta name="viewport"-->
+          <!--content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
     <title>Bouncy</title>
 
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     <link href="css_main/style.css" rel="stylesheet">
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
     <!--<script src="js_menu/jquery-1.12.4.min.js"></script>-->
 
 
@@ -41,18 +41,23 @@
 
     <!-- Galery js -->
     <script src="js/modernizr.custom.70736.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.masonry.min.js"></script>
+    <script src="js/jquery.history.js"></script>
+    <script src="js/js-url.min.js"></script>
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="js/gamma.js"></script>
+
 
     <!-- Owl Carousel js -->
-    <script type="text/javascript" src="js_main/jquery-2.2.1.min.js"></script>
+    <!--<script type="text/javascript" src="js_main/jquery-2.2.1.min.js"></script>-->
     <script type="text/javascript" src="js_main/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js_main/clipboard.min.js"></script>
-    <script type="text/javascript" src="js_main/script_owl.js"></script>
 
 
 </head>
 <body>
 
-    <header>
+<header>
     <div class="container">
         <nav class="navbar navbar-default">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -81,32 +86,30 @@
             </div>
         </nav>
     </div>
-
-    <div class="container head-h1">
-        <div class="row">
-            <h1>WE ARE CODE CAFFE</h1>
-            <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            <p>raesentium voluptatum</p>
-        </div>
-    </div>
-    <a href="#" class="arrow-head"><span class="glyphicon glyphicon-menu-down"></span></a>
 </header>
 
-<section>
+<section class="section-top">
+    <div class="container">
+        <h1>WE ARE CODE CAFFE</h1>
+        <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>
+        raesentium voluptatum</p>
+        <a href="#" class="arrow-head"><span class="glyphicon glyphicon-menu-down"></span></a>
+    </div>
+</section>
+
+<section class="section-bouncy">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h3>This is bouncy</h3>
-                <p>In order for assistive technologies – such as screen readers – to convey that a series of buttons
+            <div class="col-md-6 col-md-offset-1">
+                <h2 class="h-bouncy">THIS IS BOUNCY</h2>
+                <p class="p-bouncy">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis that a series of buttons
                     is grouped, an appropriate role attribute needs to be provided. For button groups, this would be
                     role="group", while toolbars should have a role="toolbar".
-
                     One exception are groups which only contain a single control (for instance the justified button
-                    groups with button elements)
-                    or a dropdown.</p>
+                    groups with button elements) or a dropdown. At vero eos at accusamus et iusto odio dignissimos.</p>
                 <a href="#">Read More</a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4 col-md-offset-1">
                 <div class="pad center-block">
                     <img src="images_main/pad_03.png">
                 </div>
@@ -114,38 +117,42 @@
         </div>
     </div>
 </section>
-<section class="grey">
-    <h3>DETAILS ABOUT BOUNCY</h3>
-    <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-    <p>raesentium voluptatum</p>
+<section class="section-details">
+    <h3 class="h-head">DETAILS ABOUT BOUNCY</h3>
+    <p class="p-head">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>
+    raesentium voluptatum</p>
     <div class="social">
-        <a class="social fb" href="#"><i class="far fa-heart"></i></a>
-        <a class="social tw" href="#"><img src="images_main/mouse_07.png"></a>
-        <a class="social google" href="#"><i class="far fa-lightbulb"></i></a>
+        <a class="social heart" href="#"><i class="far fa-heart"></i></a>
+        <a class="social mouse" href="#"><img src="images_main/mouse_07.png"></a>
+        <a class="social light" href="#"><i class="far fa-lightbulb"></i></a>
     </div>
-    <div class="container">
+    <div class="container creative">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="pull-left">Creative ideas</h3>
-            </div>
-            <div class="col-md-4">
-                <p>At vero eos et technologies – dignissimos ducimus readers – to convey that a series of buttons
-                    is grouped, an appropriate role attribute needs to be provided.</p>
-            </div>
-            <div class="col-md-7 col-md-offset-1">
-                <p>At vero eos et technologies – dignissimos ducimus readers – to convey that a series of buttons
-                    is grouped, an appropriate role attribute needs to be provided.
-                    At vero eos et technologies – dignissimos ducimus readers – to convey that a series of buttons
-                    is grouped, an appropriate role attribute needs to be provided.
-                    At vero eos et technologies – dignissimos ducimus readers – to convey that a series of buttons
-                    is grouped, an appropriate role attribute needs to be provided.</p>
+                <p class="main-creative">Creative ideas</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p class="left-creative">At <b><span class="green">vero</span></b> eos et accusamus et iusto odio
+                    dignissimos to be provided
+                    <b><span class="grey">ducimus</span></b> qui blanditiis that a series of buttons
+                    is grouped, an appropriate role attribute needs to be provided.</p>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                <p class="right-creative">At vero eos et technologies – dignissimos ducimus readers corupti quos a
+                    series of buttons is grouped, an appropriate role <b><span class="grey">corupti quos</span></b> to be provided.
+                At vero eos et technologies <b><span class="green">excepture</span></b> ducimus readers – to convey that a series of buttons
+                    <b><span class="grey">simi-lique</span></b>, an appropriate role attribute needs to be provided.
+                    At vero eos et technologies – dignissimos ducimus readers.</p>
+            </div>
+        </div>
+
     </div>
 </section>
-<section class="white">
-    <h3>DETAILS ABOUT BOUNCY</h3>
-    <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
+<section class="section-featured">
+    <h3 class="h-head">FEATURED PROGECTS</h3>
+    <p class="p-head">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6 fist hov"></div>
@@ -168,9 +175,9 @@
         </div>
     </div>
 </section>
-<section class="services">
-    <h3>OUR SERVICES</h3>
-    <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
+<section class="section-services">
+    <h3 class="h-head">OUR SERVICES</h3>
+    <p class="p-head">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
     <div class="container">
         <div class="row">
             <div class="col-md-1 col-md-offset-1">
@@ -179,25 +186,24 @@
                 <a href="#" class="game"><i class="fas fa-gamepad"></i></a>
                 <a href="#" class="elecrty"><img src="images_main/ico4.png"></a>
             </div>
-            <div class="col-md-3 description">
-                <h3>Graphic Design</h3>
-                <p class="first-text">At vero eos et technologies – dignissimos ducimus readers – to convey that a
-                    series of buttons
-                    is grouped, an appropriate role attribute needs to be provided.</p>
-                <p>t vero eos et technologies – dignissimos ducimus readers – to convey that a series of buttons
-                    is grouped, an appropriate role attribute needs to be provided.</p>
+            <div class="col-md-4 description">
+                <h3 class="h-graphic">Graphic Design</h3>
+                <p class="first-text">At vero eos <span class="s-green">et iusto</span>  ducimus readers odio digniss-imos <span class="s-bold">ducimus</span> readers – to convey that a
+                    is grouped. ignissimos ducimus readers.</p>
+                <p class="first-text">t vero eos et technologies – dignissimos ducimus readers –  <span class="s-green">similique sunt</span> to convey that a series of buttons
+                    is grouped, needs to be provided.</p>
             </div>
-            <div class="col-md-1 col-md-offset-1">
+            <div class="col-md-2">
                 <div class="progr">
                     <img src="images_main/progres1.png">
                 </div>
             </div>
-            <div class="col-md-1 col-md-offset-1">
+            <div class="col-md-2">
                 <div class="progr">
                     <img src="images_main/progres2.png">
                 </div>
             </div>
-            <div class="col-md-1 col-md-offset-1">
+            <div class="col-md-2">
                 <div class="progr">
                     <img src="images_main/progres3.png">
                 </div>
@@ -205,15 +211,17 @@
         </div>
     </div>
 </section>
-<section class="impressed">
+<section class="section-impressed">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h3>IMPRESSED?</h3>
-                <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum
+                <h3 class="h-impressed">IMPRESSED ?</h3>
+                <p class="p-impressed">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>
+                    raesentium voluptatum delenite atque corrupti quos dolores et quas<br>
+                    molestias
                 </p>
-                <p>-ABDULLAN NOMAN<br>
-                    CREATICE DIRECTOR, <span>CODE CAFE</span></p>
+                <p class="p-name"><span class="s-name"> - ABDULLAN NOMAN</span><br>
+                    CREATICE DIRECTOR, <span class="s-code">CODE CAFE</span></p>
             </div>
             <div class="col-md-4 col-md-offset-1 lower">
                 <div class="monitor">
@@ -223,10 +231,10 @@
         </div>
     </div>
 </section>
-<section class="portfolio">
+<section class="section-portfolio">
     <div class="container">
-        <h3>THE PORTFOLIO?</h3>
-        <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
+        <h3 class="h-head">THE PORTFOLIO?</h3>
+        <p class="p-head">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
         <div class="container decor-menu">
             <div class="row">
                 <nav class="menu menu--prospero">
@@ -274,7 +282,7 @@
                             <div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800"
                                  data-max-height="1350">
                                 <div data-src="images/1.png" data-min-width="140"></div>
-
+                                <div data-src="images/1.png"></div>
                                 <noscript>
                                     <img src="images/1.png" alt="img03"/>
                                 </noscript>
@@ -397,12 +405,12 @@
         </div>
     </div><!--/main-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/jquery.masonry.min.js"></script>
-    <script src="js/jquery.history.js"></script>
-    <script src="js/js-url.min.js"></script>
-    <script src="js/jquerypp.custom.js"></script>
-    <script src="js/gamma.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+    <!--<script src="js/jquery.masonry.min.js"></script>-->
+    <!--<script src="js/jquery.history.js"></script>-->
+    <!--<script src="js/js-url.min.js"></script>-->
+    <!--<script src="js/jquerypp.custom.js"></script>-->
+    <!--<script src="js/gamma.js"></script>-->
 
     <script type="text/javascript">
         $(function () {
@@ -432,7 +440,49 @@
             // Example how to add more items (just a dummy):
 
             var page = 0,
-                items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350"><div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div><div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div><div data-src="images/xlarge/3.jpg" data-min-width="700"></div><div data-src="images/large/3.jpg" data-min-width="300"></div><div data-src="images/medium/3.jpg" data-min-width="200"></div><div data-src="images/small/3.jpg" data-min-width="140"></div><div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div></li>']
+                items = ['<li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">' +
+                '<div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>' +
+                '<div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>' +
+                '<div data-src="images/xlarge/3.jpg" data-min-width="700"></div>' +
+                '<div data-src="images/large/3.jpg" data-min-width="300"></div>' +
+                '<div data-src="images/medium/3.jpg" data-min-width="200"></div>' +
+                '<div data-src="images/small/3.jpg" data-min-width="140"></div>' +
+                '<div data-src="images/xsmall/3.jpg"></div>' +
+                '<noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div>' +
+                '</li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">' +
+                '<div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>' +
+                '<div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>' +
+                '<div data-src="images/xlarge/3.jpg" data-min-width="700"></div>' +
+                '<div data-src="images/large/3.jpg" data-min-width="300"></div>' +
+                '<div data-src="images/medium/3.jpg" data-min-width="200"></div>' +
+                '<div data-src="images/small/3.jpg" data-min-width="140"></div>' +
+                '<div data-src="images/xsmall/3.jpg"></div>' +
+                '<noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div>' +
+                '</li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">' +
+                '<div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>' +
+                '<div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>' +
+                '<div data-src="images/xlarge/3.jpg" data-min-width="700"></div>' +
+                '<div data-src="images/large/3.jpg" data-min-width="300"></div>' +
+                '<div data-src="images/medium/3.jpg" data-min-width="200"></div>' +
+                '<div data-src="images/small/3.jpg" data-min-width="140"></div>' +
+                '<div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div>' +
+                '</li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">' +
+                '<div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>' +
+                '<div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>' +
+                '<div data-src="images/xlarge/3.jpg" data-min-width="700"></div>' +
+                '<div data-src="images/large/3.jpg" data-min-width="300"></div>' +
+                '<div data-src="images/medium/3.jpg" data-min-width="200"></div>' +
+                '<div data-src="images/small/3.jpg" data-min-width="140"></div>' +
+                '<div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div>' +
+                '</li><li><div data-alt="img03" data-description="<h3>Sky high</h3>" data-max-width="1800" data-max-height="1350">' +
+                '<div data-src="images/xxxlarge/3.jpg" data-min-width="1300"></div>' +
+                '<div data-src="images/xxlarge/3.jpg" data-min-width="1000"></div>' +
+                '<div data-src="images/xlarge/3.jpg" data-min-width="700"></div>' +
+                '<div data-src="images/large/3.jpg" data-min-width="300"></div>' +
+                '<div data-src="images/medium/3.jpg" data-min-width="200"></div>' +
+                '<div data-src="images/small/3.jpg" data-min-width="140"></div>' +
+                '<div data-src="images/xsmall/3.jpg"></div><noscript><img src="images/xsmall/3.jpg" alt="img03"/></noscript></div>' +
+                '</li>']
 
             function fncallback() {
 
@@ -459,14 +509,14 @@
     </script>
 
     <div class="container portfolio_foot">
-        <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        <p >At vero eos at <span>accusamus</span> et iusto odio dignissimos <span>ducimus</span> qui blanditiis</p>
         <a href="#">Start Priject</a>
     </div>
 </section>
-<section class="testimonials">
+<section class="section-testimonials">
     <div class="container">
-        <h3>TESTIMONIALS</h3>
-        <p>At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
+        <h3 class="h-head">TESTIMONIALS</h3>
+        <p class="p-head">At vero eos at accusamus et iusto odio dignissimos ducimus qui blanditiis<br>raesentium voluptatum</p>
     </div>
 
     <!--/Owl Carousel-->
@@ -475,20 +525,12 @@
             <div class="carousel"><img src="images_main/owl1.png"></div>
             <div class="carousel"><img src="images_main/owl1.png"></div>
             <div class="carousel"><img src="images_main/owl1.png"></div>
-            <div class="carousel"><img src="images_main/owl1.png"></div>
         </div>
 
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $(".owl-carousel").owlCarousel();
-            });
-        </script>
     </div>
-
-
 </section>
 
-
+<script type="text/javascript" src="js_main/script_owl.js"></script>
 
 </body>
 </html>
