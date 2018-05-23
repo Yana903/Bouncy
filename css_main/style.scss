@@ -34,7 +34,7 @@
 @font-face {
   font-family: "SourceSansProLight";
   src: url("../fonts/SourceSansProLight/SourceSansProLight.eot");
-  src: url("../fonts/SourceSansProLight/SourceSansProLight.eot?#iefix")format("embedded-opentype"),
+  src: url("../fonts/SourceSansProLight/SourceSansProLight.eot?#iefix") format("embedded-opentype"),
   url("../fonts/SourceSansProLight/SourceSansProLight.woff") format("woff"),
   url("../fonts/SourceSansProLight/SourceSansProLight.ttf") format("truetype");
   font-style: normal;
@@ -208,31 +208,31 @@ header {
     }
   }
   .creative {
-        text-align: left;
-        line-height: 1.8;
+    text-align: left;
+    line-height: 1.8;
 
-        .main-creative {
-          font-family: $main_font;
-          font-size: 20px;
-          color: #525252;
-        }
+    .main-creative {
+      font-family: $main_font;
+      font-size: 20px;
+      color: #525252;
+    }
 
-        p {
-          font-size: 14px;
-          font-family: $main_font;
-          color: #81868e;
-          line-height: 1.8;
+    p {
+      font-size: 14px;
+      font-family: $main_font;
+      color: #81868e;
+      line-height: 1.8;
 
-          .green {
-            color: #19bd9a;
-          }
+      .green {
+        color: #19bd9a;
+      }
 
-          .grey {
-            color: #636971;
-          }
-        }
+      .grey {
+        color: #636971;
       }
     }
+  }
+}
 
 .section-featured {
   @extend .section-details;
@@ -394,7 +394,7 @@ header {
       }
     }
 
-    .progr{
+    .progr {
       display: inline;
       width: 50px;
 
@@ -413,7 +413,7 @@ header {
   padding-top: 80px;
   padding-bottom: 102px;
 
-  .h-impressed{
+  .h-impressed {
     margin-bottom: 55px;
     font-family: "SourceSansProLight";
     letter-spacing: 4px;
@@ -455,7 +455,7 @@ header {
       img {
         width: 100%;
       }
-      &:after{
+      &:after {
         content: "";
       }
     }
@@ -512,7 +512,6 @@ header {
       }
     }
 
-
     a {
       text-decoration: none;
       display: inline-block;
@@ -547,8 +546,8 @@ header {
 //media queries
 
 @include max-screen($point-1) {
-  .navbar-default .navbar-right{
-      margin-right: 200px;
+  .navbar-default .navbar-right {
+    margin-right: 200px;
   }
 
   .section-services .elecrty {
@@ -561,11 +560,10 @@ header {
 }
 
 @include max-screen($point-2) {
-  .section-bouncy {
-    .pad {
-      text-align: center;
-    }
+  .section-bouncy .pad {
+    text-align: center;
   }
+
   .section-services .elecrty {
     font-size: 25px;
   }
@@ -586,4 +584,86 @@ header {
     top: 200px;
     left: 325px;
   }
+
+  .navbar-toggle {
+    margin-top: 40px;
+    margin-left: 140px;
+  }
+  header .navbar-default .navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar-default .navbar-right {
+    margin-right: 600px;
+  }
+
+  header .navbar-default .navbar-nav {
+    margin-top: 20px;
+  }
+
+  header .navbar-default .navbar-nav li a {
+    padding-bottom: 3px;
+    border: none;
+
+    &:hover {
+      border: none;
+      color: #19bd9a;
+    }
+  }
 }
+
+@include max-screen($point-3) {
+  header {
+    left: 10px;
+  }
+  .navbar-toggle {
+    margin-right: 40px;
+  }
+
+  .section-testimonials .owl-dots {
+    top: 150px;
+    left: 270px;
+  }
+}
+
+@include max-screen($point-4) {
+  header .navbar-default .navbar-nav {
+    margin-top: 3px;
+  }
+
+  header .navbar-default .navbar-nav li a {
+    padding-bottom: 3px;
+    border: none;
+
+    &:hover {
+      border: none;
+      color: #19bd9a;
+    }
+  }
+  .navbar-default .navbar-brand {
+    margin-top: -80px;
+  }
+}
+
+@include max-screen($point-5) {
+  .section-testimonials .owl-dots {
+    top: 100px;
+    left: 150px;
+  }
+}
+
+@include max-screen($point-6) {
+  header {
+    left: 10px;
+  }
+  .navbar-toggle {
+    margin-right: 40px;
+  }
+
+  .section-testimonials .owl-dots {
+    top: 100px;
+    left: 115px;
+  }
+}
+
+

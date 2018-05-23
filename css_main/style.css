@@ -554,6 +554,84 @@ header .navbar-default .navbar-nav li a:visited {
     top: 200px;
     left: 325px;
   }
+
+  .navbar-toggle {
+    margin-top: 40px;
+    margin-left: 140px;
+  }
+
+  header .navbar-default .navbar-nav {
+    margin-top: 20px;
+  }
+
+  .navbar-default .navbar-right {
+    margin-right: 600px;
+  }
+
+  header .navbar-default .navbar-nav {
+    margin-top: 20px;
+  }
+
+  header .navbar-default .navbar-nav li a {
+    padding-bottom: 3px;
+    border: none;
+  }
+  header .navbar-default .navbar-nav li a:hover {
+    border: none;
+    color: #19bd9a;
+  }
+}
+@media screen and (max-width: 634px) {
+  header {
+    left: 10px;
+  }
+
+  .navbar-toggle {
+    margin-right: 40px;
+  }
+
+  .section-testimonials .owl-dots {
+    top: 150px;
+    left: 270px;
+  }
+}
+@media screen and (max-width: 548px) {
+  header .navbar-default .navbar-nav {
+    margin-top: 3px;
+  }
+
+  header .navbar-default .navbar-nav li a {
+    padding-bottom: 3px;
+    border: none;
+  }
+  header .navbar-default .navbar-nav li a:hover {
+    border: none;
+    color: #19bd9a;
+  }
+
+  .navbar-default .navbar-brand {
+    margin-top: -80px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .section-testimonials .owl-dots {
+    top: 100px;
+    left: 150px;
+  }
+}
+@media screen and (max-width: 325px) {
+  header {
+    left: 10px;
+  }
+
+  .navbar-toggle {
+    margin-right: 40px;
+  }
+
+  .section-testimonials .owl-dots {
+    top: 100px;
+    left: 115px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
